@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 500px;
+    text-align: center;
+    margin: 90px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.heading{
+    padding-top: 10px;
+    /* background-color: black; */
+}
+.alert{
+    width: 90%;
+    margin:10px auto;
+    height: 25px;
+    padding-top: 4px;
+}
+.inputval{
+    padding: 5px;
+    border: none;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+.inputval:focus{
+    outline: none;
+}
+.subbtn{
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}
+.outer_div{
+    margin-top: 20px;
+}
+.item{
+    width: 90%;
+    margin: 5px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.item li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 5px;
+}
+.item button{
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.item button:hover{
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+.clrbtn{
+    margin: 20px auto;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+@media screen and (max-width:515px) {
+    .container{
+        width: 400px;
+    } 
+}
+@media screen and (max-width:415px) {
+    .container{
+        width: 300px;
+    }
+}
